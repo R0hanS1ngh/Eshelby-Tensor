@@ -252,7 +252,7 @@ for i in range(0,3):
             for l in range(k,3):
                 print('S', i + 1, j + 1, k + 1, l + 1, '=', S[i][j][k][l])
 
-print('S=',S)
+print('S=',S) # Eshelby Tensor
 
 delta = np.eye(3)
 I = np.ones([3, 3, 3, 3])
